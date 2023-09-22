@@ -1,0 +1,5 @@
+terceira_letra_do_alfabeto="c"
+
+print(terceira_letra_do_alfabeto)
+
+

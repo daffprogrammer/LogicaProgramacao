@@ -1,0 +1,4 @@
+numero1=100
+numero2=56
+
+print(numero1%numero2)

@@ -1,0 +1,2 @@
+texto="variável qualquer"
+print(texto)

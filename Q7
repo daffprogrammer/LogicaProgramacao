@@ -1,0 +1,4 @@
+numero1=100
+numero2=200
+
+print(numero2-numero1)
