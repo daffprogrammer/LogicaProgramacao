@@ -1,33 +1,26 @@
-nome_do_aluno="Deivid" #tipo str
-idade=21 #tipo int
-altura=1.78 #tipo float
-habilitacao=True #tipo bool
-batizado=False #tipo bool
+# numero=int(input("digite o primeiro número")) #condicionais
+# numero2=int(input("digite o segundo numero"))         
 
-#string str "texto"
-#numero int 12345
-#numero float 1.5
+# if numero==numero2: #se o numero for igual ao numero2, vai ser mostrado "os numeros são iguais"
+#     print("Os numeros são iguais")
+# else:
+#     print("os numeros são diferentes")
 
-print("fazendo um teste")
-print(idade+altura)
-print(type(idade))
 
-nota1=5
-nota2=6
+# sinal=str(input("digite a cor do sinal"))
+# if sinal=="vermelho": #se for vermelho,mostre pare
+#     print("pare")
+# elif sinal=="amarelo": #se não for vermelho e sim amarelo, mostre reduzir
+#     print("reduzir")
+# elif sinal=="verde": #se não for vermelho e sim verde, mostre prossiga
+#     print("prossiga")
+# else:                #se não for nenhuma opção, mostre digite uma cor(...)
+#     print("digite uma cor entre vermelho, amarelo ou verde")
 
-print(nota1+nota2) #adicao
-print(nota1-nota2) #subtracao
-print(nota1*nota2) #multiplicacao
-print(nota1//nota2) #divisao inteira
-print(nota1**2) #potenciacao
-print(nota1%3) #resto da divisao
-
-print(5==5) #true
-print(5!=5) #false
-
-nome = input("digite seu nome:")
-idade = int(input("digite sua idade:"))
-altura = float(input("digite sua altura:"))
-
-print("Bem vindo",nome, "sua idade e",idade, "sua altura e", altura)
-
+numero=int(input("digite um numero"))
+if numero==0:
+    print("neutro")
+elif numero>0:
+    print("positivo")
+elif numero<0:
+    print("negativo")
